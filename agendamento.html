@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>AGENDAMENTO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/agendamento.css">
+        <script src="js/agendamento.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <a class="voltar" href="disponiveis.html" >&#8592;</a>
+            <h2 class="titulo"> ESTACIONAMENTO X</h2>
+        </header>
+
+        <main>
+            <ul class="ul1">
+            <!-- Referência do uso de input com date e time:  www.w3schools -->
+                <li class="item1"> 
+                    <label for="data-agendamento">Data:</label>
+                    <input type="date" id="data-agendamento" name="data-agendamento">
+                </li>
+                <li class="item1">
+                    <label for="hora-agendamento">Hora:</label>
+                    <input type="time" id="hora-agendamento" name="hora-agendamento">
+                </li>
+            </ul>
+
+            
+            <div class="ul2">
+                <h3> AVISOS:</h3>
+                <p class="item2">Tolerância de 15 minutos</p>
+                <p class="item2">Taxa de agendamento R$2,50 </p>
+                <p class="item2">Cobrança de tempo por estadia no local </p>
+            </div>
+        </main>
+
+        <footer>
+            <a class="pagar" href="pagamento.html">PAGAR</a>
+        </footer>
+
+
+
+    </body>
+    
+</html>

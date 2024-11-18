@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211,211,211,0.23);
+    padding: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.voltar {
+    position: fixed;
+    top: 1.25rem; /* 20px / 16 */
+    left: 1.25rem; /* 20px / 16 */
+    background-color: #761313;
+    border: none;
+    border-radius: 50%;
+    color: #ffcc00;
+    width: 3.125rem; /* 50px / 16 */
+    height: 3.125rem; /* 50px / 16 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.voltar:hover {
+    background-color: #761313;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* mantém px */
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    background-color: #ffcc00;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+    align-items: center;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: 0.125rem solid #d3d3d3; /* 2px / 16 */
+    width: 80%;
+    max-width: 400px; /* mantém px */
+    margin-bottom: 2rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; /* mantém px */
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    background-color: #003366;
+    border-radius: 1.5rem;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    font-size: 3rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    background-color: rgb(211,211,211,0.23);
+    padding: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 500px) { /* mantém px */
+    h2 {
+        font-size: 2rem;
+    }
+
+    input {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    a {
+        font-size: 2.5rem;
+    }
+}
